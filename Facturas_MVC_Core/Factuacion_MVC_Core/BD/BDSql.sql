@@ -21,3 +21,9 @@ CREATE TABLE Facturas(
    CONSTRAINT Facturas_pk PRIMARY KEY(IdFactura),
    CONSTRAINT fk_idProducto FOREIGN KEY (idProducto) REFERENCES Producto (idProducto)
 );
+
+
+
+
+
+
